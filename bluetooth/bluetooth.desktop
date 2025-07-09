@@ -1,0 +1,10 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+Name=Bluetooth
+Comment=Bluetooth Manager
+Icon=blueman
+X-XFCE-Module=bluetooth
+X-XFCE-Internal=true
+X-XFCE-Unique=true
+#X-XFCE-API=1.0
