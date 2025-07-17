@@ -1,5 +1,6 @@
 MODULE = bluetooth
-LIBDIR = /usr/lib/x86_64-linux-gnu
+#LIBDIR = /usr/lib/x86_64-linux-gnu
+LIBDIR = /usr/lib/arm-linux-gnueabihf
 PLUGIN_DIR = $(LIBDIR)/xfce4/panel/plugins
 DESKTOP_DIR = /usr/share/xfce4/panel/plugins
 DESTDIR =

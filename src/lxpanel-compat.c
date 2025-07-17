@@ -17,6 +17,8 @@ xfce_panel_plugin_set_taskbar_icon(XfcePanelPlugin *plugin, GtkWidget *image, co
 void
 xfce_panel_plugin_set_menu_icon(XfcePanelPlugin *plugin, GtkWidget *image, const char *name)
 {
+    if (!name)
+        return;
     if (strlen(name)==0) {
         gtk_image_clear(GTK_IMAGE (image));
         return;
